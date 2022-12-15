@@ -1,0 +1,39 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+h1 {
+  text-align: left;
+}
+
+div {
+  position: relative;
+  top: 50%;
+
+}
+
+#board td {
+  text-align: center;
+  color: white;
+  width: 100px;
+  height: 100px;
+  border: solid 1px #666;
+  background-color: #060ce9;
+  text-decoration: white;
+}
+
+#board th {
+  text-align: center;
+  width: 100px;
+  height: 1000px;
+  border: dashed 1px #666;
+  background-color: skyblue;
+}
+
+#column-top td {
+  border: dashed 1px lightgray;
+}
